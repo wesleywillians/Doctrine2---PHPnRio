@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <nav>
+	<autores>
+	    <label>Autores</label>
+	    <action>index</action>
+	    <controller>autor</controller>
+	    <pages>
+		<add>
+		    <label>Adicionar autor</label>
+		    <action>add</action>
+		    <controller>autor</controller>
+		</add>
+		<edit>
+		    <label>Editar autor</label>
+		    <action>edit</action>
+		    <controller>autor</controller>
+                    <visible>0</visible>
+		</edit>
+	    </pages>
+	</autores>
+        <categorias>
+	    <label>Categorias</label>
+	    <action>index</action>
+	    <controller>categoria</controller>
+	    <pages>
+		<add>
+		    <label>Adicionar categoria</label>
+		    <action>add</action>
+		    <controller>autor</controller>
+		</add>
+		<edit>
+		    <label>Editar categoria</label>
+		    <action>edit</action>
+		    <controller>categoria</controller>
+                    <visible>0</visible>
+		</edit>
+	    </pages>
+	</categorias>
+        <artigos>
+	    <label>Artigos</label>
+	    <action>index</action>
+	    <controller>artigo</controller>
+	    <pages>
+		<add>
+		    <label>Adicionar artigo</label>
+		    <action>add</action>
+		    <controller>artigo</controller>
+		</add>
+		<edit>
+		    <label>Editar artigo</label>
+		    <action>edit</action>
+		    <controller>artigo</controller>
+                    <visible>0</visible>
+		</edit>
+	    </pages>
+	</artigos>
+        <entrevistas>
+	    <label>Entrevistas</label>
+	    <action>index</action>
+	    <controller>entrevista</controller>
+	    <pages>
+		<add>
+		    <label>Adicionar entrevista</label>
+		    <action>add</action>
+		    <controller>entrevista</controller>
+		</add>
+		<edit>
+		    <label>Editar entrevista</label>
+		    <action>edit</action>
+		    <controller>entrevista</controller>
+                    <visible>0</visible>
+		</edit>
+	    </pages>
+	</entrevistas>
+        <noticias>
+	    <label>Noticias</label>
+	    <action>index</action>
+	    <controller>noticia</controller>
+	    <pages>
+		<add>
+		    <label>Adicionar noticia</label>
+		    <action>add</action>
+		    <controller>noticia</controller>
+		</add>
+		<edit>
+		    <label>Editar noticia</label>
+		    <action>edit</action>
+		    <controller>noticia</controller>
+                    <visible>0</visible>
+		</edit>
+	    </pages>
+	</noticias>
+    </nav>
+</config>

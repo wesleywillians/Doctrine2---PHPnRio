@@ -1,0 +1,9 @@
+<ul>
+    <?php foreach ($this->categorias as $categoria) {?>
+    <li>
+        <?php echo $categoria->getNome(); ?> - 
+        <a href="<?php echo $this->url(array('controller' => 'categoria', 'action' => 'edit', 'id' => $categoria->getId()), null, true)?>">Editar</a>  - 
+        <a href="<?php echo $this->url(array('controller' => 'categoria', 'action' => 'delete', 'id' => $categoria->getId()), null, true)?>">Excluir</a>
+    </li>
+    <?php }?>
+</ul>

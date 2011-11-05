@@ -1,0 +1,19 @@
+<table border="1">
+    <tr>
+        <th>Titulo</th>
+        <th>Categoria</th>
+        <th>Autor</th>
+        <th>Acoes</th>
+    </tr>
+    <?php foreach ($this->artigos as $artigo) {?>
+    <tr>
+        <td><?php echo $artigo['titulo']; ?></td>
+        <td><?php echo $artigo['categoria']; ?></td>
+        <td><?php echo $artigo['autor']; ?></td>
+        <td>
+            <a href="<?php echo $this->url(array('controller' => 'artigo', 'action' => 'edit', 'id' => $artigo['id']), null, true)?>">Editar</a>  - 
+            <a href="<?php echo $this->url(array('controller' => 'artigo', 'action' => 'delete', 'id' => $artigo['id']), null, true)?>">Excluir</a>
+        </td>
+    </tr>
+    <?php }?>
+</table>

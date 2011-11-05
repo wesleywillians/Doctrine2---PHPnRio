@@ -1,0 +1,9 @@
+<ul>
+    <?php foreach ($this->autores as $autor) {?>
+    <li>
+        <?php echo $autor->getNome(); ?> - 
+        <a href="<?php echo $this->url(array('controller' => 'autor', 'action' => 'edit', 'id' => $autor->getId()), null, true)?>">Editar</a>  - 
+        <a href="<?php echo $this->url(array('controller' => 'autor', 'action' => 'delete', 'id' => $autor->getId()), null, true)?>">Excluir</a>
+    </li>
+    <?php }?>
+</ul>

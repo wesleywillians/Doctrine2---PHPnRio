@@ -1,0 +1,20 @@
+Ilustrando um problema de uma aplicação sem ORM
+	Queries espalhadas por diversos lugares da aplicação
+	Não possui um mapeamendo do negócio da sua aplicação
+	Se mudar a camada de persistencia... fu...
+	
+Apresentando o Doctrine como uma boa solução
+	Usa conceito de dependency injection
+	Rápido, cache... etc.
+	Trabalha com meta
+Configurando e instanlando o Doctrine
+	Integrando o ZF1 + Doctrine com a Bisna
+Exemplos de Queries e Persistencia
+	Cadastro de categoria de notícias
+		Criação de models
+		Criação de form
+		
+	Criando categoria
+	Criando notícia
+	
+Vantagens e Desvantagens
